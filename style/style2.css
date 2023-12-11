@@ -1,0 +1,159 @@
+.aside_2 {
+    margin: 0px 0px 0px 0px;
+    background-color: #E2E0FC33;
+    height: 831px;
+    width: 1518px;
+}
+.h1_aside_1 {
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2.0999999046325684px;
+    text-align: left;
+    margin: 0px 0px 0px 519px;
+    padding: 24px 0px 0px 0px;    
+}
+.aside_1_div {
+    width: 299px;
+    height: 200x;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 15px;
+    margin: 135px 50px 40px 221px;
+}
+.aside_text_1 {
+    font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+opacity: 0.8;
+padding: 60px 30px 28px 23px;
+
+}
+.aside_button_1 {
+    width: 235px;
+height: 50px;
+top: 356.28px;
+left: 256.5px;
+border-radius: 12px;
+border: 3px solid black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: white;
+margin: 0px 0px 30px 35px;
+}
+.close_icons {
+    width: 40.51px;
+    height: 40.51px;
+    padding: 18.75px 27.75px 22.75px 19.75px;
+
+}
+.close_icons_div {
+    width: 80.8px;
+height: 80px;
+top: 95.72px;
+left: 330.6px;
+border: 1px solid white;
+background-color: white;
+border-radius: 100%;
+position: absolute;
+top: 2220px;
+/* margin: 0px 0px 10px 339px; */
+}
+/* .aside_2_div {
+    width: 299px;
+    height: 300x;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 15px;
+    margin: 135px 50px 40px 221px;
+}
+.aside_text_2 {
+    font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+opacity: 0.8;
+padding: 60px 30px 28px 23px;
+
+}
+.aside_button_2 {
+    width: 235px;
+height: 50px;
+top: 356.28px;
+left: 256.5px;
+border-radius: 12px;
+border: 3px solid black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: white;
+margin: 0px 0px 30px 35px;
+}
+.true_icons {
+    width: 40.51px;
+    height: 40.51px;
+    padding: 18.75px 27.75px 22.75px 19.75px;
+
+}
+.true_icons_div {
+    width: 80.8px;
+height: 80px;
+top: 95.72px;
+left: 330.6px;
+border: 1px solid white;
+background-color: white;
+border-radius: 100%;
+position: absolute;
+top: 2220px; 
+/* margin: 0px 0px 10px 339px; *
+}
+ /* .aside_3_div {
+    width: 299px;
+    height: 300x;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 15px;
+    margin: 135px 50px 40px 221px;
+}
+.aside_text_3 {
+    font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+opacity: 0.8;
+padding: 60px 30px 28px 23px;
+
+}
+.aside_button_3 {
+    width: 235px;
+height: 50px;
+top: 356.28px;
+left: 256.5px;
+border-radius: 12px;
+border: 3px solid black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: white;
+margin: 0px 0px 30px 35px;
+}
+.later_icons {
+    width: 40.51px;
+    height: 40.51px;
+    padding: 18.75px 27.75px 22.75px 19.75px;
+
+}
+.later_icons_div    {
+    width: 80.8px;
+height: 80px;
+top: 95.72px;
+left: 330.6px;
+border: 1px solid white;
+background-color: white;
+border-radius: 100%;
+position: absolute;
+top: 2220px;
+/* margin: 0px 0px 10px 339px; *
+}  */
+    /* .aside_kotta_contenier {
+        display: flex;
+        justify-content: right;
+    } */
+
