@@ -10,12 +10,14 @@ a {
     cursor: pointer;
 }
 body {
-    height: 4000px;
+    height: 3800px;
 }
 .header {
-    height: 800px;
+    height: 850px;
+    width: 100%;
     background-image: url(../img/backgroung_header.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 img {
     width: 100%;
@@ -24,7 +26,10 @@ img {
 nav {
     background-image: url(../img/bacgroung_blue.png);
     background-repeat: no-repeat;
-    height: 99px;
+    height: 105px;
+    width: 100%;
+    background-size: cover;
+    
 }
 .logo_icons_header {
     width: 90px;
@@ -52,6 +57,8 @@ nav {
     letter-spacing: 0.5px;
     text-align: left;
     color: white;
+    text-decoration: none;
+   
     
 }
 .imzo_olish_header {
@@ -62,6 +69,8 @@ line-height: 20px;
 letter-spacing: 0.5px;
 text-align: left;
 color: white;
+text-decoration: none;
+
 
 }
 .hujjatlar_header {
@@ -72,6 +81,7 @@ line-height: 20px;
 letter-spacing: 0.5px;
 text-align: left;
 color: white;
+text-decoration: none;
 
 }
 .imzo_haqida_header {
@@ -82,6 +92,7 @@ line-height: 20px;
 letter-spacing: 0.5px;
 text-align: left;
 color: white;
+text-decoration: none;
 
 }
 .qollanma_header {
@@ -92,7 +103,8 @@ line-height: 20px;
 letter-spacing: 0.5px;
 text-align: left;
 color: white;
-    
+text-decoration: none;
+
 }
 .ariza_header {
     font-family: PT Sans;
@@ -169,6 +181,9 @@ color: blue;
 font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
 margin: 50px 0px 0px 600px;
 
+}
+.kalit_olish_href {
+    text-decoration: none;
 }
 
 
@@ -355,19 +370,21 @@ text-align: left;
     border: 0px;
     padding: 0px, 27px, 0px, 27px;
     border-radius: 55px;
-    gap: 19px;
+    gap: 6px;
     font-size: 19px;
     background-color: blue;
     color: white;
-    padding: 0px 0px 0px 15px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .aside_contenier_2 {
     display: flex;
     flex-direction: column;
     gap: 40px;
     position: absolute;
-    top: 650px;
+    top: 690px;
     left: 1050px;
 }
 /* .aside {
@@ -621,11 +638,14 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 font-weight: 700;
 line-height: 32px;
 text-align: center;
-color: #4A71FB;
-background-color: white;
+background-color: blue;
 margin: 30px 30px 0px 525px;
-text-decoration: none;
 
+
+}
+.ariza_shakli_section {
+    color: white;
+    text-decoration: none;
 
 }
 .button_2_section {
@@ -651,4 +671,389 @@ background-color: white;
 .davlat_xizmat {
     margin: 0px 0px 0px 530px;
     font-size: 20px;
+}
+
+footer {
+    background-color: #FAFAFF;
+    width: 1518px;
+    height: 250px;
+    border-top: 1px solid #C4C4C4;
+}
+.footer_contenier {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 0px 0px 241px;
+}
+.div_1_footer {
+    margin: 0px 120px 0px 0px;
+}
+.div_2_footer {
+    margin: 49.17px 0px 0px 0px;
+}
+.div_3_footer {
+    margin: 47.67px 0px 0px 0px;
+}
+.logo_footer {
+    width: 48px;
+height: 48px;
+margin: 29px 0px 17px 0px ;
+
+}
+.text_1_footer {
+    font-family: Raleway;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+}
+.text_2_footer {
+    font-family: Raleway;
+font-size: 15px;
+font-weight: 700;
+line-height: 26px;
+opacity: 0.6;
+margin: 0px 0px 13.4px 0px;
+}
+.text_3_footer {
+    font-family: Raleway;
+font-size: 15px;
+font-weight: 700;
+line-height: 27px;
+
+
+}
+.button_footer {
+    width: 172.5px;
+height: 39px;
+border-radius: 160px;
+border: 1px solid black;
+padding: 5.5px 10.75px;
+background-color: white;
+font-family: Raleway;
+font-size: 15px;
+font-weight: 700;
+line-height: 28px;
+
+
+
+}
+.telegram_div {
+    display: flex;
+    align-items: center;
+    margin: 16px 0px 0px 15px;
+}
+.phone_div {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 15px;
+}
+.email_div {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 15px;
+}
+.telegram_logo_footer {
+    width: 14.4px;
+    height: 12px;
+    margin: 0px 9.75px 0px 0px;
+
+}
+.telegram_text {
+    font-family: Raleway;
+font-size: 15px;
+font-weight: 700;
+line-height: 28px;
+
+}
+.phone_logo_footer {
+    width: 12px;
+    height: 12px;
+    margin: 0px 9.75px 0px 0px;
+
+}
+.phone_text {
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+.email_logo_footer {
+    width: 12px;
+    height: 12px;
+    margin: 0px 9.75px 0px 0px;
+
+}
+.email_text {
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+@media ( min-width:1920px ) {
+    body {
+        overflow-x: hidden;
+    }
+    .aside_contenier_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        position: absolute;
+        top: 940px;
+        left: 1399px;
+    }
+    .header {
+        height: 1150px;
+        width: 100%;
+        background-image: url(../img/backgroung_header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav {
+        background-image: url(../img/bacgroung_blue.png);
+        background-repeat: no-repeat;
+        height: 142px;
+        width: 100%;
+        background-size: cover;
+        
+    }
+    section {
+        margin: 300px 0px 0px 0px;
+        background-color: #E2E0FC33;
+        height: 675px;
+        width: 1915px;
+    }
+    .h1_1_section {
+        font-family: h1_2_section;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 2.0999999046325684px;
+        text-align: left;
+        padding: 50px 0px 0px 600px;    
+    }
+    .text_section {
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0px 0px 440px;
+    }
+    .section_contenier_1 {
+        display: flex;
+        justify-content: safe;
+        margin: 0px 0px 0px 230px;
+    }
+    .button_1_section {
+        width: 184.75px;
+    height: 47.11px;
+    border-radius: 60px;
+    border: 2px #4A71FB solid;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    background-color: blue;
+    margin: 30px 30px 0px 725px;
+    
+    
+    }
+    .raqamli_imzo {
+
+        font-size: 63px;
+        font-weight: 400;
+        line-height: 68px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 70px 0px 0px 570px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .text_1_header {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            margin: 7px 0px 0px 620px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .kalit_olish_button {
+                width: 160.15px;
+                height: 46px;
+                border: 0px;
+                border-radius: 60px;
+                text-align: center;
+                color: blue;
+                font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+                margin: 50px 0px 0px 800px;
+                
+                }
+                .katta_contenier_header {
+                    display: flex;
+                    justify-content: safe;
+                    margin: 0px 0px 0px 200px;
+                    
+                }
+                .yaratilishi_jarayonda {
+                    margin: 0px 0px 0px 720px;
+                    font-size: 22px;
+                   
+                }
+                .davlat_xizmat {
+                    margin: 0px 0px 0px 730px;
+                    font-size: 20px;
+                }
+                .aside_contenier_1 {
+                    display: flex;
+                    justify-content: safe;
+                    margin: 0px 0px 0px 200px;
+                }
+                .footer_contenier {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    margin: 0px 0px 0px 400px;
+                }
+                footer {
+                    background-color: #FAFAFF;
+                    width: 1918px;
+                    height: 250px;
+                    border-top: 1px solid #C4C4C4;
+                }
+    
+
+
+}
+@media ( max-width:1440px ) {
+    body {
+        overflow-x: hidden;
+    }
+    .aside_contenier_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        position: absolute;
+        top: 590px;
+        left: 1050px;
+    }
+    .header {
+        height: 850px;
+        width: 100%;
+        background-image: url(../img/backgroung_header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav {
+        background-image: url(../img/bacgroung_blue.png);
+        background-repeat: no-repeat;
+        height: 105px;
+        width: 100%;
+        background-size: cover;
+        
+    }
+    section {
+        margin: 300px 0px 0px 0px;
+        background-color: #E2E0FC33;
+        height: 675px;
+        width: 1518px;
+    }
+    .h1_1_section {
+        font-family: h1_2_section;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 2.0999999046325684px;
+        text-align: left;
+        padding: 50px 0px 0px 400px;    
+    }
+    .text_section {
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0px 0px 240px;
+    }
+    .section_contenier_1 {
+        display: flex;
+        justify-content: safe;
+    }
+    .button_1_section {
+        width: 184.75px;
+    height: 47.11px;
+    border-radius: 60px;
+    border: 2px #4A71FB solid;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    background-color: blue;
+    margin: 30px 30px 0px 525px;
+    
+    
+    }
+    .raqamli_imzo {
+
+        font-size: 63px;
+        font-weight: 400;
+        line-height: 68px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 70px 0px 0px 370px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .text_1_header {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            margin: 7px 0px 0px 420px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .kalit_olish_button {
+                width: 160.15px;
+                height: 46px;
+                border: 0px;
+                border-radius: 60px;
+                text-align: center;
+                color: blue;
+                font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+                margin: 50px 0px 0px 600px;
+                
+                }
+                .katta_contenier_header {
+                    display: flex;
+                    justify-content: safe;
+                    
+                }
+                .yaratilishi_jarayonda {
+                    margin: 0px 0px 0px 520px;
+                    font-size: 22px;
+                   
+                }
+                .davlat_xizmat {
+                    margin: 0px 0px 0px 530px;
+                    font-size: 20px;
+                }
+                .aside_contenier_1 {
+                    display: flex;
+                    justify-content: safe;
+                }
+                .footer_contenier {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    margin: 0px 0px 0px 241px;
+                }
+                footer {
+                    background-color: #FAFAFF;
+                    width: 1518px;
+                    height: 250px;
+                    border-top: 1px solid #C4C4C4;
+                }
+    
+
+
 }

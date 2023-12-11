@@ -78,3 +78,4 @@ text1_section.addEventListener('click', ()=> {
     button2_section.style.transition = `1s`
 })
 
+
